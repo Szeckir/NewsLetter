@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Newsletter</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Importar os scripts do Firebase -->
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-database.js"></script>
+    <!-- Importar os scripts do Firebase como módulos -->
+    <script type="module" src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <!-- Logo -->
+        <div class="logo">
+           <img src="/Design sem nome.png">
+        </div>
+        <!-- Título principal -->
+        <h1>As notícias da tecnologia<br/> que você precisa!</h1>
+        <!-- Texto secundário -->
+        <h2>Faça parte da melhor comunidade de tecnologia e mantenha-se atualizado <br/>diariamente sobre um mercado em constante evolução.</h2>
+        <!-- Formulário de inscrição -->
+        <form id="newsletter-form">
+            <input type="email" id="email-input" placeholder="Digite seu e-mail" required>
+            <button type="submit">Inscrever-se</button>
+        </form>
+    </div>
+</body>
+
+<!-- Footer -->
+<footer>
+    <p>&copy; 2023 Algoritmo&Cafe. Todos os direitos reservados.</p>
+</footer>
+</html>

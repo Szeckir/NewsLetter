@@ -1,0 +1,84 @@
+body {
+    background-color: #18191A;
+    color: #37FEA5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-top: 100px;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+}
+
+.logo img {
+    width: 150px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: white;
+    font-weight: 800;
+}
+
+h2 {
+    font-size: 24px;
+    font-weight: lighter;
+    margin-bottom: 40px;
+    color: white;
+}
+
+form {
+    display: inline-block;
+}
+
+input[type="email"] {
+    padding: 10px;
+    border: 2px solid #37FEA5;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    width: 300px;
+    font-size: 16px;
+}
+
+input[type="email"]::placeholder {
+    color: #37FEA5;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #37FEA5;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left: 10px;
+}
+
+button:hover {
+    background-color: #2DC98A;
+}
+
+footer {
+    background-color: #18191A;
+    color: rgba(255, 255, 255, 0.264);
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 14px;
+}
